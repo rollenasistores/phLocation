@@ -76,7 +76,11 @@ return [
      * ],
      * ```
      */
-    'servers' => null,
+    'servers' =>
+        [
+            'Live' => 'api',
+            'Prod' => 'https://api.rollenasistores.site/api',
+        ],
 
     'middleware' => [
         'web',
